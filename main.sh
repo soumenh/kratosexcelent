@@ -76,7 +76,6 @@ else
    echo -e ""
  exit 0
 fi
-fi
 if [ -d /data/data/com.tencent.mobileqqsa ]; then
 echo -e "[𝙺𝙴 𝚅𝙰𝚁𝚃𝚄𝙰𝙻]    𝙵𝙾𝚄𝙽𝙳 !" | lolcat | pv -qL 120
 else
