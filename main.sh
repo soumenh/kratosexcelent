@@ -83,16 +83,16 @@ else
     echo -e ""
 exit 0
 fi
-if ls /sdcard/*/KE BYPASS.lua> /dev/null 2>&1; then
+if ls /sdcard/*/*.lua> /dev/null 2>&1; then
     echo -e "[𝙺𝙴 𝙱𝚈𝙿𝙰𝚂𝚂  𝚂𝙲𝚁𝙸𝙿𝚃]        𝙵𝙾𝚄𝙽𝙳!" | lolcat | pv -qL 120
 else
-if ls /sdcard/KE BYPASS.lua> /dev/null 2>&1; then
+if ls /sdcard/*.lua> /dev/null 2>&1; then
     echo -e "[𝙺𝙴 𝙱𝚈𝙿𝙰𝚂𝚂  𝚂𝙲𝚁𝙸𝙿𝚃        𝙵𝙾𝚄𝙽𝙳!" | lolcat | pv -qL 120
  else
- if ls /sdcard/*/*/KE BYPASS.lua> /dev/null 2>&1; then
+ if ls /sdcard/*/*/*.lua> /dev/null 2>&1; then
     echo -e "[𝙺𝙴 𝙱𝚈𝙿𝙰𝚂𝚂  𝚂𝙲𝚁𝙸𝙿𝚃]        𝙵𝙾𝚄𝙽𝙳!" | lolcat | pv -qL 120
  else
- if ls /sdcard/*/*/*/KE BYPASS.lua> /dev/null 2>&1; then
+ if ls /sdcard/*/*/*/*.lua> /dev/null 2>&1; then
     echo -e "[𝙺𝙴 𝙱𝚈𝙿𝙰𝚂𝚂  𝚂𝙲𝚁𝙸𝙿𝚃]        𝙵𝙾𝚄𝙽𝙳!" | lolcat | pv -qL 120
  else
     echo -e "[𝙺𝙴 𝙱𝚈𝙿𝙰𝚂𝚂  𝚂𝙲𝚁𝙸𝙿𝚃 ] ➟   𝚗𝚘𝚝 𝚏𝚘𝚞𝚗𝚍, 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚞𝚜𝚒𝚗𝚐 𝙺𝙴 𝙱𝚈𝙿𝙰𝚂𝚂  𝚂𝙲𝚁𝙸𝙿𝚃" | lolcat | pv -qL 120
@@ -104,16 +104,16 @@ fi
 fi
 
 
-if ls /sdcard/*/KE VIP HACK SCRIPT.lua> /dev/null 2>&1; then
+if ls /sdcard/*/*.lua> /dev/null 2>&1; then
     echo -e "[𝙷𝙰𝙲𝙺 𝚂𝙲𝚁𝙸𝙿𝚃]          𝙵𝙾𝚄𝙽𝙳!" | lolcat | pv -qL 120
 else
-     if ls /sdcard/KE VIP HACK SCRIPT.lua> /dev/null 2>&1; then
+     if ls /sdcard/*.lua> /dev/null 2>&1; then
     echo -e "[𝙷𝙰𝙲𝙺 𝚂𝙲𝚁𝙸𝙿𝚃]        𝙵𝙾𝚄𝙽𝙳!" | lolcat | pv -qL 120
  else
- if ls /sdcard/*/*/KE VIP HACK SCRIPT.lua> /dev/null 2>&1; then
+ if ls /sdcard/*/*/*.lua> /dev/null 2>&1; then
     echo -e "[𝙷𝙰𝙲𝙺 𝚂𝙲𝚁𝙸𝙿𝚃]        𝙵𝙾𝚄𝙽𝙳!" | lolcat | pv -qL 120
  else
- if ls /sdcard/*/*/*/KE VIP HACK SCRIPT.lua> /dev/null 2>&1; then
+ if ls /sdcard/*/*/*/*.lua> /dev/null 2>&1; then
     echo -e "[𝙷𝙰𝙲𝙺 𝚂𝙲𝚁𝙸𝙿𝚃]        𝙵𝙾𝚄𝙽𝙳!" | lolcat | pv -qL 120
  else
     echo -e "[𝙷𝙰𝙲𝙺 𝚂𝙲𝚁𝙸𝙿𝚃 ] ➟  𝚗𝚘𝚝 𝚏𝚘𝚞𝚗𝚍, 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚞𝚜𝚒𝚗𝚐  𝙺𝙴 𝚅𝙸𝙿 𝙷𝙰𝙲𝙺 𝚂𝙲𝚁𝙸𝙿𝚃!" | lolcat | pv -qL 120
