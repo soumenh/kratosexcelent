@@ -154,6 +154,7 @@ wget -O /sdcard/KRATOSEXCELENT/core_patch_1.1.0.14555.pak https://drive.google.c
 wget -O /sdcard/KRATOSEXCELENT/game_patch_1.1.0.14556.pak https://drive.google.com/file/d/1cYfyu1y6_XJWDjNUS9SFN4-Shvv7FAM3/view?usp=drivesdk &> /dev/null 
 wget -O /sdcard/KRATOSEXCELENT/game_patch_1.1.0.14557.pak https://drive.google.com/file/d/1cYQ7hSnYi27x_3obFasMPmwKJRCMZdxW/view?usp=drivesdk &> /dev/null 
 echo " "
+sleep 3
 echo -e "\e[91m "
 echo -e " 𝙳𝙰𝚃𝙰 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴 " | lolcat | pv -qL 120
    fi
@@ -169,7 +170,36 @@ echo -e " ╔══════════════════════�
  █░▒█ █░▒█ █░▒█ ░▒█░░ █▄▄▄█ █▄▄▄█   █▄▄▄ ▄▀▒▀▄ █▄▄█ █▄▄▄ █▄▄█ █▄▄▄ █░░▀█ ░▒█░░
  
  ╚═════════════════════════════ ≪ •❈• ≫ ═══════════════════════════════╝" | lolcat -a -d 20
+clear
 echo " "
 echo " "
 echo " "
-echo -e "[ 𝚂𝙴𝙻𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙶𝙰𝙼𝙴 ]" | lolcat
+echo -e "[ 𝚂𝙴𝙻𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙾𝙿𝚃𝙸𝙾𝙽 ]" | lolcat
+PS3='
+𝙴𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝙲𝙷𝙾𝙾𝚂𝙴 ➠ '
+echo -e "\e[33m "
+sleep 1
+options=("𝙿𝚄𝙱𝙶 𝙶𝙻"
+                 "𝙿𝚄𝙱𝙶 𝙺𝚁"
+                  "𝚀𝚄𝙸𝚃")
+select opt in "${options[@]}"
+do
+case $opt in
+"𝙿𝚄𝙱𝙶 𝙶𝙻")
+pubggl.sh
+
+         ;;
+        "𝙿𝚄𝙱𝙶 𝙺𝚁")
+  pubgkr.sh
+  
+           ;;
+        "𝚀𝚄𝙸𝚃")
+      clear
+echo -e " [𝙿𝚛𝚘𝚌𝚎𝚜𝚜 𝚌𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍 (𝚌𝚘𝚍𝚎 𝟷𝟸𝟽)] " | lolcat | pv -qL 180
+echo " "
+exit 0
+
+;;
+*) echo "𝙸𝙽𝚅𝙰𝙻𝙸𝙳 𝙾𝙿𝚃𝙸𝙾𝙽 $REPLY" && sleep 1  ;;
+esac
+done
