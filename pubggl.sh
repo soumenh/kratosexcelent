@@ -1,6 +1,6 @@
 clear
   echo ""
-if [[ -d /data/adb/magisk/magisk ]]; then
+if [[ -d /data/adb/magisk ]]; then
 echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝚁𝙾𝙾𝚃𝙴𝙳 𝚄𝚂𝙴𝚁 " 
 echo -e " 𝚂𝚝𝚊𝚛𝚝𝚎𝚍 𝚛𝚘𝚘𝚝 𝚙𝚛𝚘𝚐𝚛𝚎𝚜𝚜..." && sleep 2 
 clear
