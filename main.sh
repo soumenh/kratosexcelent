@@ -37,8 +37,8 @@ sleep 0.40
 echo " 𝚁𝙰𝙼 : " $RAM | lolcat | pv -qL 250
 sleep 1
 echo
-clear
 echo -e "\e[94m "
+clear
 echo -e "  𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚗𝚐 𝚠𝚒𝚝𝚑 𝚜𝚎𝚛𝚟𝚎𝚛 𝚙𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝• " 
 sleep 0.45
 clear
@@ -140,36 +140,15 @@ fi
 fi
 fi
 fi
-   echo
-clear
-echo -e "\e[95m "
-echo "               𝐇𝐀𝐂𝐊 𝐃𝐀𝐓𝐀 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆...            "
-echo -n "  █" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" | lolcat | pv -qL 120
- if [ -d /storage/emulated/0/KRATOSEXCELENT ]; then
-rm -rf /storage/emulated/0/KRATOSEXCELENT &> /dev/null 
-mkdir /storage/emulated/0/KRATOSEXCELENT &> /dev/null 
-else
-mkidr /storage/emulated/0/KRATOSEXCELENT &> /dev/null 
-wget -O /sdcard/KRATOSEXCELENT/core_patch_1.1.0.14555.pak https://drive.google.com/file/d/1cWCLyrIUX7noxU94XpU0bF3bYNScNEpP/view?usp=drivesdk &> /dev/null 
-wget -O /sdcard/KRATOSEXCELENT/game_patch_1.1.0.14556.pak https://drive.google.com/file/d/1cYfyu1y6_XJWDjNUS9SFN4-Shvv7FAM3/view?usp=drivesdk &> /dev/null 
-wget -O /sdcard/KRATOSEXCELENT/game_patch_1.1.0.14557.pak https://drive.google.com/file/d/1cYQ7hSnYi27x_3obFasMPmwKJRCMZdxW/view?usp=drivesdk &> /dev/null 
-echo " "
-sleep 3
-echo -e "\e[91m "
-echo -e " 𝙳𝙰𝚃𝙰 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴 " | lolcat | pv -qL 120
-   fi
-   
-   
-sleep 1
 
 clear
-echo -e " ╔═════════════════════════════ ≪ •❈• ≫ ═══════════════════════════════╗
+echo -e " ╔═════════════════════ ≪ •❈• ≫ ═════════════════════╗
 
- █░▄▀ █▀▀█ █▀▀█ ▀▀█▀▀ █▀▀▀█ █▀▀▀█   █▀▀▀ ▀▄▒▄▀ █▀▀█ █▀▀▀ █░░░ █▀▀▀ █▄░▒█ ▀▀█▀▀
- █▀▄░ █▄▄▀ █▄▄█ ░▒█░░ █░░▒█ ▀▀▀▄▄   █▀▀▀ ░▒█░░ █░░░ █▀▀▀ █░░░ █▀▀▀ █▒█▒█ ░▒█░░
- █░▒█ █░▒█ █░▒█ ░▒█░░ █▄▄▄█ █▄▄▄█   █▄▄▄ ▄▀▒▀▄ █▄▄█ █▄▄▄ █▄▄█ █▄▄▄ █░░▀█ ░▒█░░
+ █░▄▀ █▀▀█ █▀▀█ ▀▀█▀▀ █▀▀▀█ █▀▀▀█ █▀▀█ █░▒█ ▀▀█▀▀ █▀▀▀█
+ █▀▄░ █▄▄▀ █▄▄█ ░▒█░░ █░░▒█ ▀▀▀▄▄ █▄▄█ █░▒█ ░▒█░░ █░░▒█
+ █░▒█ █░▒█ █░▒█ ░▒█░░ █▄▄▄█ █▄▄▄█ █░▒█ ▀▄▄▀ ░▒█░░ █▄▄▄█
  
- ╚═════════════════════════════ ≪ •❈• ≫ ═══════════════════════════════╝" | lolcat -a -d 20
+ ╚═════════════════════ ≪ •❈• ≫ ═════════════════════╝" | lolcat -a -d 20
 clear
 echo " "
 echo " "
