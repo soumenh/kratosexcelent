@@ -22,18 +22,22 @@ echo -e " [𝟹𝚁𝙳 𝙿𝙰𝚁𝚃𝚈 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅�
 rm -rf /proc/sys/fs/inotify/max_user_wathes
 echo "0-8192"> /proc/sys/fs/inotify/max_user_wathes
 echo -e " [𝟷𝟶/𝟹𝟶 𝙼𝙸𝙽 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳]"
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
-touch /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
+touch /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
 echo -e " 𝙰𝙻𝙻 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳 "
 sleep 1
 clear
 echo -e " [𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙶𝙰𝙼𝙴 𝙶𝚄𝙰𝚁𝙳𝙸𝙰]"
+sleep 4
+am start -n com.duoqshsqx/com.duoqshsqx.MainActivity &> /dev/null
+sleep 2
 am start -n com.duoqshsqx/com.duoqshsqx.MainActivity &> /dev/null 
-sleep 4 && echo "" && clear && echo -e " [𝙶𝙰𝙼𝙴 𝙶𝚄𝙰𝚁𝙳𝙸𝙰𝙽 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]"
+echo "" && clear && echo -e " [𝙶𝙰𝙼𝙴 𝙶𝚄𝙰𝚁𝙳𝙸𝙰𝙽 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]"
+sleep 2
 am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null 
 sleep 2 && echo "" && clear && echo -e " [𝙿𝚄𝙱𝙶 𝙶𝙻 𝚆𝙸𝙻𝙻 𝙰𝚄𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝚆𝙸𝚃𝙷𝙸𝙽 𝟻 𝚂𝙴𝙲]"
-rm -rf /data/data/com.tencent.ig/app_crashrecord
-touch /data/data/com.tencent.ig/app_crashrecord
+rm -rf /data/data/com.tencent.ig/app_crashrecord &> /dev/null
+touch /data/data/com.tencent.ig/app_crashrecord &> /dev/null
 sleep 5
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity &> /dev/null
 clear
@@ -52,10 +56,10 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag 2> /dev/null
-cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-rm -rf /storage/emulated/0/KRATOSEXCELENT
+cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+rm -rf /storage/emulated/0/KRATOSEXCELENT &> /dev/null
 
 echo " "
 sleep 15
@@ -73,8 +77,8 @@ echo $final
 
 rm -r /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak > /dev/null 2>&1
 rm -r /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak > /dev/null 2>&1
-cp /data/data/com.termux/files/usr/bin/groot3.sh /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
-cp /data/data/com.termux/files/usr/bin/groot4.sh /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak
+cp /data/data/com.termux/files/usr/bin/groot3.sh /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak &> /dev/null
+cp /data/data/com.termux/files/usr/bin/groot4.sh /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak &> /dev/null
 am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null 
 clear & echo " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙲𝙻𝙾𝚂𝙴𝙳 𝚈𝙾𝚄𝚁 𝙶𝙰𝙼𝙴, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃....." && sleep 5
 clear
@@ -105,8 +109,8 @@ sleep .30
 echo -e " [𝟹𝚁𝙳 𝙿𝙰𝚁𝚃𝚈 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳]"
 speep .30
 echo -e " [𝟷𝟶/𝟹𝟶 𝙼𝙸𝙽 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳]"
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
-tauch /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
+tauch /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
 sleep .30
 echo -e " 𝙰𝙻𝙻 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳 "
 clear
@@ -121,10 +125,10 @@ echo -e "𝚂𝚃𝙰𝚁𝚃 𝙶𝙶 & 𝙿𝚄𝙱𝙶 𝙶𝙻𝙾𝙱𝙴�
 echo -e " [𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚂𝙿𝙰𝙲𝙴 𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶]"
 am start -n com.tencent.mobileqqsa/com.tencent.mobileqqsa.component.activity.LauncherActivity &> /dev/null 
 echo -e " [started virtual] " && sleep 70
-cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-rm -rf /storage/emulated/0/KRATOSEXCELENT
+cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+rm -rf /storage/emulated/0/KRATOSEXCELENT &> /dev/null
 echo -e " [𝙱𝚁𝚄𝙲𝙷 𝙲𝙻𝙴𝙰𝙽𝙸𝙽𝙶 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]" && sleep 10
 i=1
 j=0
