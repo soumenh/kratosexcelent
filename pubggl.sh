@@ -41,11 +41,15 @@ touch /data/data/com.tencent.ig/app_crashrecord &> /dev/null
 sleep 5
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity &> /dev/null
 clear
-echo -e " [𝙱𝚁𝚄𝙲𝙷 𝙲𝙻𝙴𝙰𝙽𝙸𝙽𝙶 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]" && sleep 10
+echo -e " [𝙱𝚁𝚄𝙲𝙷 𝙲𝙻𝙴𝙰𝙽𝙸𝙽𝙶 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]" && sleep 60
+cp /sdcard/KRATOSEXCELENT/kratos1.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_1.1.0.14555.pak &> /dev/null
+cp /sdcard/KRATOSEXCELENT/kratos2.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14556.pak &> /dev/null
+cp /sdcard/KRATOSEXCELENT/kratos3.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14557.pak &> /dev/null
+rm -rf /sdcard/KRATOSEXCELENT &> /dev/null
 echo -e "   𝙿𝚛𝚎𝚜𝚜 𝙲𝚃𝚁𝙻+𝙲 𝚝𝚘 𝚜𝚝𝚘𝚙!"      
 i=1
 j=0
-sleep 60
+sleep 10
 PACKAGE='com.tencent.ig'
 while [ $(pidof $PACKAGE) ]
 do
@@ -56,11 +60,6 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag 2> /dev/null
-cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-rm -rf /storage/emulated/0/KRATOSEXCELENT &> /dev/null
-
 echo " "
 sleep 15
 echo " 𝙻𝙾𝙾𝙿𝙸𝙽𝙶 𝙱𝚈𝙿𝙰𝚂𝚂.........."
@@ -119,10 +118,10 @@ echo -e "𝚂𝚃𝙰𝚁𝚃 𝙶𝙶 & 𝙿𝚄𝙱𝙶 𝙶𝙻𝙾𝙱𝙴�
 echo -e " [𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚂𝙿𝙰𝙲𝙴 𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶]"
 am start -n com.tencent.mobileqqsa/com.tencent.mobileqqsa.component.activity.LauncherActivity &> /dev/null 
 echo -e " [started virtual] " && sleep 70
-cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-rm -rf /storage/emulated/0/KRATOSEXCELENT &> /dev/null
+cp /sdcard/KRATOSEXCELENT/kratos1.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_1.1.0.14555.pak &> /dev/null
+cp /sdcard/KRATOSEXCELENT/kratos2.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14556.pak &> /dev/null
+cp /sdcard/KRATOSEXCELENT/kratos3.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14557.pak &> /dev/null
+rm -rf /sdcard/KRATOSEXCELENT &> /dev/null
 echo -e " [𝙱𝚁𝚄𝙲𝙷 𝙲𝙻𝙴𝙰𝙽𝙸𝙽𝙶 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]" && sleep 10
 i=1
 j=0
