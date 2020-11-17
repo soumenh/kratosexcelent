@@ -22,17 +22,18 @@ echo -e " [𝟹𝚁𝙳 𝙿𝙰𝚁𝚃𝚈 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅�
 rm -rf /proc/sys/fs/inotify/max_user_wathes
 echo "0-8192"> /proc/sys/fs/inotify/max_user_wathes
 echo -e " [𝟷𝟶/𝟹𝟶 𝙼𝙸𝙽 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳]"
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
-touch /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
+touch /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
 echo -e " 𝙰𝙻𝙻 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳 "
 sleep 1
 clear
 echo -e " [𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙶𝙰𝙼𝙴 𝙶𝚄𝙰𝚁𝙳𝙸𝙰]"
 sleep 4
-am start -n com.duoqshsqx/com.duoqshsqx.MainActivity &> /dev/null 
-sleep 2
 am start -n com.duoqshsqx/com.duoqshsqx.MainActivity &> /dev/null
+sleep 2
+am start -n com.duoqshsqx/com.duoqshsqx.MainActivity &> /dev/null 
 echo "" && clear && echo -e " [𝙶𝙰𝙼𝙴 𝙶𝚄𝙰𝚁𝙳𝙸𝙰𝙽 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]"
+sleep 2
 am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null 
 sleep 2 && echo "" && clear && echo -e " [𝙿𝚄𝙱𝙶 𝙺𝚁 𝚆𝙸𝙻𝙻 𝙰𝚄𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝚆𝙸𝚃𝙷𝙸𝙽 𝟻 𝚂𝙴𝙲]"
 rm -rf /data/data/com.pubg.krmobile/app_crashrecord &> /dev/null
@@ -45,7 +46,6 @@ cp /sdcard/KRATOSEXCELENT/kratos1.sh /sdcard/Android/data/com.pubg.krmobile/file
 cp /sdcard/KRATOSEXCELENT/kratos2.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14556.pak &> /dev/null
 cp /sdcard/KRATOSEXCELENT/kratos3.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14557.pak &> /dev/null
 rm -rf /sdcard/KRATOSEXCELENT &> /dev/null
-
 echo -e "   𝙿𝚛𝚎𝚜𝚜 𝙲𝚃𝚁𝙻+𝙲 𝚝𝚘 𝚜𝚝𝚘𝚙!"      
 i=1
 j=0
@@ -60,7 +60,6 @@ rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag 2> /dev/null
-
 echo " "
 sleep 15
 echo " 𝙻𝙾𝙾𝙿𝙸𝙽𝙶 𝙱𝚈𝙿𝙰𝚂𝚂.........."
@@ -75,6 +74,9 @@ sleep 1
 final=$((c/6))
 echo $final
 
+final=$((c/6))
+echo $final
+
 rm -r /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_1.1.0.14555.pak > /dev/null 2>&1
 rm -r /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14556.pak > /dev/null 2>&1
 rm -r /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14557.pak > /dev/null 2>&1
@@ -83,7 +85,8 @@ clear & echo " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙲𝙻𝙾𝚂𝙴𝙳 𝚈𝙾𝚄�
 clear
 clear & echo " 𝙳𝙾𝙽𝙴, 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙶𝙾😊" 
 exit 0
-echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝚃 𝚄𝚂𝙸𝙽𝙶 𝙿𝚄𝙱𝙶 𝙺𝚁, 𝙵𝙸𝚁𝚂𝚃 𝙸𝙽𝚂𝚃𝙰𝙻𝙻 𝙿𝚄𝙱𝙶 𝙺𝚁 𝙰𝙽𝙳 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴
+else
+echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝚃 𝚄𝚂𝙸𝙽𝙶 𝙿𝚄𝙱𝙶 𝙺𝚁, 𝙵𝙸𝚁𝚂𝚃 𝙸𝙽𝚂𝚃𝙰𝙻𝙻 𝙿𝚄𝙱𝙶 𝙺𝚁 𝙰𝙽𝙳 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 "
 exit 0
 fi
 
@@ -101,21 +104,19 @@ echo -e " [𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙸𝙽𝙶 𝙿𝚁𝙾𝙲𝙴�
 echo -e " [𝙾𝙵𝙵𝙻𝙸𝙽𝙴 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳] "
 sleep .30
 echo -e " [𝟹𝚁𝙳 𝙿𝙰𝚁𝚃𝚈 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳]"
-speep .30
+sleep 1
 echo -e " [𝟷𝟶/𝟹𝟶 𝙼𝙸𝙽 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳]"
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
-tauch /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
-sleep .30
+rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
+tauch /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
+sleep 1
 echo -e " 𝙰𝙻𝙻 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳 "
 clear
-rm -rf /data/data/com.pubg.krmobile/app_crashrecord &> /dev/null
-touch /data/data/com.pubg.krmobile/app_crashrecord &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_1.1.0.14555.pak &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14556.pak &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14557.pak &> /dev/null
 echo -e " [𝚌𝚛𝚊𝚜𝚑 𝚏𝚒𝚡𝚎𝚍 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚊𝚗𝚢 𝚎𝚛𝚛𝚘𝚛]" && sleep 1 && clear
 echo -e " 𝚅𝙸𝚁𝚃𝚄𝙰𝙻 𝚂𝙿𝙰𝙲𝙴 𝚆𝙸𝙻𝙻 𝙰𝚄𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝙸𝙽 𝟻 𝚂𝙴𝙲𝙾𝙽𝙳𝚂"
-echo -e "𝚂𝚃𝙰𝚁𝚃 𝙶𝙶 & 𝙿𝚄𝙱𝙶 𝙺𝚁𝙾𝙱𝙴𝙻 𝙰𝙽𝙳 𝙿𝙻𝙰𝚈 " && sleep 5
+echo -e "𝚂𝚃𝙰𝚁𝚃 𝙶𝙶 & 𝙿𝚄𝙱𝙶 𝙺𝚁  𝙰𝙽𝙳 𝙿𝙻𝙰𝚈 " && sleep 5
 echo -e " [𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚂𝙿𝙰𝙲𝙴 𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶]"
 am start -n com.tencent.mobileqqsa/com.tencent.mobileqqsa.component.activity.LauncherActivity &> /dev/null 
 echo -e " [started virtual] " && sleep 70
