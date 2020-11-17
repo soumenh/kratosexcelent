@@ -53,6 +53,7 @@ sleep 10
 PACKAGE='com.pubg.krmobile'
 while [ $(pidof $PACKAGE) ]
 do
+clear
 rm -rf /data/data/com.pubg.krmobile/app_bugly 2> /dev/null
 rm -rf /data/data/com.pubg.krmobile/cache 2> /dev/null
 rm -rf /data/data/com.pubg.krmobile/code_cache 2> /dev/null
@@ -62,21 +63,11 @@ rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTr
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag 2> /dev/null
 echo " "
 sleep 15
-echo " 𝙻𝙾𝙾𝙿𝙸𝙽𝙶 𝙱𝚈𝙿𝙰𝚂𝚂.........."
+echo " 𝙻𝙾𝙾𝙿𝙸𝙽𝙶 𝙱𝚈𝙿𝙰𝚂𝚂 $c .........."
 echo " "
-
 c=$((c+1))
-if [ ! $(pidof $PACKAGE) ]; then
-break
-fi
 done
-sleep 1
-final=$((c/6))
-echo $final
-
-final=$((c/6))
-echo $final
-
+if [ ! $(pidof $PACKAGE) ]; then
 rm -r /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_1.1.0.14555.pak > /dev/null 2>&1
 rm -r /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14556.pak > /dev/null 2>&1
 rm -r /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_1.1.0.14557.pak > /dev/null 2>&1
@@ -85,6 +76,14 @@ clear & echo " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙲𝙻𝙾𝚂𝙴𝙳 𝚈𝙾𝚄�
 clear
 clear & echo " 𝙳𝙾𝙽𝙴, 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙶𝙾😊" 
 exit 0
+
+fi
+done
+sleep 1
+final=$((c/6))
+echo $final
+
+
 else
 echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝚃 𝚄𝚂𝙸𝙽𝙶 𝙿𝚄𝙱𝙶 𝙺𝚁, 𝙵𝙸𝚁𝚂𝚃 𝙸𝙽𝚂𝚃𝙰𝙻𝙻 𝙿𝚄𝙱𝙶 𝙺𝚁 𝙰𝙽𝙳 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 "
 exit 0
