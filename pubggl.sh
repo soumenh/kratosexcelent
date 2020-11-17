@@ -94,7 +94,7 @@ else
 echo -e " 𝚂𝚝𝚊𝚛𝚝𝚎𝚍 𝚗𝚘𝚗-𝚛𝚘𝚘𝚝 𝚙𝚛𝚘𝚐𝚛𝚎𝚜𝚜..." && sleep 2 
 clear
 if [ -d /data/data/com.tencent.mobileqqsa ]; then
-if [ -d /data/data/com.tencent.mobileqqsa/com.pubg.krmobile/data/app/com.tencent.ig ]; then
+if [ -d /data/data/com.tencent.mobileqqsa/com.pubg.krmobile/data/app/com.rekoo.pubgm ]; then
 echo -e " [𝙵𝙾𝚄𝙽𝙳 𝙿𝚄𝙱𝙶 𝙶𝙻 𝙽𝙾𝙽-𝚁𝙾𝙾𝚃]" && sleep 1 && clear
 clear
 echo " "
