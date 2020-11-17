@@ -3,6 +3,7 @@ clear
 if [[ -d /data/adb/magisk ]]; then
 echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝚁𝙾𝙾𝚃𝙴𝙳 𝚄𝚂𝙴𝚁 " 
 echo -e " 𝚂𝚝𝚊𝚛𝚝𝚎𝚍 𝚛𝚘𝚘𝚝 𝚙𝚛𝚘𝚐𝚛𝚎𝚜𝚜..." && sleep 2 
+if [[ -d /data/data/com.pubg.krmobile ]]; then
 clear
 echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝙵𝚒𝚡 𝚌𝚛𝚊𝚜𝚑]" && sleep 1 && clear
 chmod 000 /data/data/com.pubg.krmobile/files/tss_tmp/* &> /dev/null
@@ -27,12 +28,15 @@ echo -e " 𝙰𝙻𝙻 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳 "
 sleep 1
 clear
 echo -e " [𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙶𝙰𝙼𝙴 𝙶𝚄𝙰𝚁𝙳𝙸𝙰]"
+sleep 4
 am start -n com.duoqshsqx/com.duoqshsqx.MainActivity &> /dev/null 
-sleep 4 && echo "" && clear && echo -e " [𝙶𝙰𝙼𝙴 𝙶𝚄𝙰𝚁𝙳𝙸𝙰𝙽 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]"
+sleep 2
+am start -n com.duoqshsqx/com.duoqshsqx.MainActivity &> /dev/null
+echo "" && clear && echo -e " [𝙶𝙰𝙼𝙴 𝙶𝚄𝙰𝚁𝙳𝙸𝙰𝙽 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]"
 am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null 
 sleep 2 && echo "" && clear && echo -e " [𝙿𝚄𝙱𝙶 𝙺𝚁 𝚆𝙸𝙻𝙻 𝙰𝚄𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝚆𝙸𝚃𝙷𝙸𝙽 𝟻 𝚂𝙴𝙲]"
-rm -rf /data/data/com.pubg.krmobile/app_crashrecord
-touch /data/data/com.pubg.krmobile/app_crashrecord
+rm -rf /data/data/com.pubg.krmobile/app_crashrecord &> /dev/null
+touch /data/data/com.pubg.krmobile/app_crashrecord &> /dev/null
 sleep 5
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity &> /dev/null
 clear
@@ -51,10 +55,10 @@ rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs 2> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag 2> /dev/null
-cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-rm -rf /storage/emulated/0/KRATOSEXCELENT
+cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+rm -rf /storage/emulated/0/KRATOSEXCELENT &> /dev/null
 
 echo " "
 sleep 15
@@ -72,13 +76,16 @@ echo $final
 
 rm -r /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak > /dev/null 2>&1
 rm -r /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak > /dev/null 2>&1
-cp /data/data/com.termux/files/usr/bin/groot3.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
-cp /data/data/com.termux/files/usr/bin/groot4.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak
+cp /data/data/com.termux/files/usr/bin/groot3.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak &> /dev/null
+cp /data/data/com.termux/files/usr/bin/groot4.sh /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak &> /dev/null
 am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null 
 clear & echo " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙲𝙻𝙾𝚂𝙴𝙳 𝚈𝙾𝚄𝚁 𝙶𝙰𝙼𝙴, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃....." && sleep 5
 clear
 clear & echo " 𝙳𝙾𝙽𝙴, 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙶𝙾😊" 
 exit 0
+echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝚃 𝚄𝚂𝙸𝙽𝙶 𝙿𝚄𝙱𝙶 𝙺𝚁, 𝙵𝙸𝚁𝚂𝚃 𝙸𝙽𝚂𝚃𝙰𝙻𝙻 𝙿𝚄𝙱𝙶 𝙺𝚁 𝙰𝙽𝙳 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴
+exit 0
+fi
 
 else
    echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝙽-𝚁𝙾𝙾𝚃𝙴𝙳 𝚄𝚂𝙴𝚁 " 
@@ -100,8 +107,8 @@ sleep .30
 echo -e " [𝟹𝚁𝙳 𝙿𝙰𝚁𝚃𝚈 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳]"
 speep .30
 echo -e " [𝟷𝟶/𝟹𝟶 𝙼𝙸𝙽 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳]"
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
-tauch /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
+tauch /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
 sleep .30
 echo -e " 𝙰𝙻𝙻 𝙱𝙰𝙽 𝚁𝙴𝙼𝙾𝚅𝙴𝙳 "
 clear
@@ -116,10 +123,10 @@ echo -e "𝚂𝚃𝙰𝚁𝚃 𝙶𝙶 & 𝙿𝚄𝙱𝙶 𝙺𝚁𝙾𝙱𝙴�
 echo -e " [𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚂𝙿𝙰𝙲𝙴 𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶]"
 am start -n com.tencent.mobileqqsa/com.tencent.mobileqqsa.component.activity.LauncherActivity &> /dev/null 
 echo -e " [started virtual] " && sleep 70
-cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-rm -rf /storage/emulated/0/KRATOSEXCELENT
+cp /storage/emulated/0/KRATOSEXCELENT/core_patch_1.1.0.14555.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14556.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp /storage/emulated/0/KRATOSEXCELENT/game_patch_1.1.0.14557.pak /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+rm -rf /storage/emulated/0/KRATOSEXCELENT &> /dev/null
 echo -e " [𝙱𝚁𝚄𝙲𝙷 𝙲𝙻𝙴𝙰𝙽𝙸𝙽𝙶 𝚂𝚃𝙰𝚁𝚃𝙴𝙳]" && sleep 10
 i=1
 j=0
