@@ -3,6 +3,7 @@ clear
 if [[ -d /data/adb/magisk ]]; then
 echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝚁𝙾𝙾𝚃𝙴𝙳 𝚄𝚂𝙴𝚁 " 
 echo -e " 𝚂𝚝𝚊𝚛𝚝𝚎𝚍 𝚛𝚘𝚘𝚝 𝚙𝚛𝚘𝚐𝚛𝚎𝚜𝚜..." && sleep 2 
+if [[ -d /data/data/com.pubg.krmobile ]]; then
 clear
 echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝙵𝚒𝚡 𝚌𝚛𝚊𝚜𝚑]" && sleep 1 && clear
 chmod 000 /data/data/com.tencent.ig/files/tss_tmp/* &> /dev/null
@@ -79,6 +80,10 @@ clear & echo " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙲𝙻𝙾𝚂𝙴𝙳 𝚈𝙾𝚄�
 clear
 clear & echo " 𝙳𝙾𝙽𝙴, 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙶𝙾😊" 
 exit 0
+else
+echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝚃 𝚄𝚂𝙸𝙽𝙶 𝙿𝚄𝙱𝙶 𝙶𝙻, 𝙵𝙸𝚁𝚂𝚃 𝙸𝙽𝚂𝚃𝙰𝙻𝙻 𝙿𝚄𝙱𝙶 𝙶𝙻 𝙰𝙽𝙳 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 "
+exit 0
+fi
 
 else
    echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝙽-𝚁𝙾𝙾𝚃𝙴𝙳 𝚄𝚂𝙴𝚁 " 
