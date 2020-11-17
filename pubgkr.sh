@@ -78,7 +78,6 @@ clear & echo " 𝙳𝙾𝙽𝙴, 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙶𝙾
 exit 0
 
 fi
-done
 sleep 1
 final=$((c/6))
 echo $final
