@@ -3,7 +3,7 @@ clear
 if [[ -d /data/adb/magisk ]]; then
 echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝚁𝙾𝙾𝚃𝙴𝙳 𝚄𝚂𝙴𝚁 " 
 echo -e " 𝚂𝚝𝚊𝚛𝚝𝚎𝚍 𝚛𝚘𝚘𝚝 𝚙𝚛𝚘𝚐𝚛𝚎𝚜𝚜..." && sleep 2 
-if [[ -d /data/data/com.pubg.krmobile ]]; then
+if [[ -d /data/data/com.tencent.ig ]]; then
 clear
 echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝙵𝚒𝚡 𝚌𝚛𝚊𝚜𝚑]" && sleep 1 && clear
 chmod 000 /data/data/com.tencent.ig/files/tss_tmp/* &> /dev/null
@@ -94,7 +94,7 @@ else
 echo -e " 𝚂𝚝𝚊𝚛𝚝𝚎𝚍 𝚗𝚘𝚗-𝚛𝚘𝚘𝚝 𝚙𝚛𝚘𝚐𝚛𝚎𝚜𝚜..." && sleep 2 
 clear
 if [ -d /data/data/com.tencent.mobileqqsa ]; then
-if [ -d /data/data/com.tencent.mobileqqsa/com.pubg.krmobile/data/app/com.rekoo.pubgm ]; then
+if [ -d /data/data/com.tencent.mobileqqsa/com.pubg.krmobile/data/app/com.tencent.ig ]; then
 echo -e " [𝙵𝙾𝚄𝙽𝙳 𝙿𝚄𝙱𝙶 𝙶𝙻 𝙽𝙾𝙽-𝚁𝙾𝙾𝚃]" && sleep 1 && clear
 clear
 echo " "
