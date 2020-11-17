@@ -91,10 +91,6 @@ else
    echo -e " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙽𝙾𝙽-𝚁𝙾𝙾𝚃𝙴𝙳 𝚄𝚂𝙴𝚁 " 
 echo -e " 𝚂𝚝𝚊𝚛𝚝𝚎𝚍 𝚗𝚘𝚗-𝚛𝚘𝚘𝚝 𝚙𝚛𝚘𝚐𝚛𝚎𝚜𝚜..." && sleep 2 
 clear
-if [ -d /data/data/com.tencent.mobileqqsa ]; then
-if [ -d /data/data/com.tencent.mobileqqsa/com.pubg.krmobile/data/app/com.pubg.krmobile ]; then
-echo -e " [𝙵𝙾𝚄𝙽𝙳 𝙿𝚄𝙱𝙶 𝙺𝚁 𝙽𝙾𝙽-𝚁𝙾𝙾𝚃]" && sleep 1 && clear
-clear
 echo " "
 echo " "
 rm -rf /sdcard/.backups &> /dev/null
@@ -169,11 +165,4 @@ am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null
 clear
 echo " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙿𝚄𝙱𝙶 𝟷.𝟹𝟶 𝙷𝙾𝚁𝚄𝚂 𝙳𝙰𝙼𝙽, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚂𝚃𝙰𝚁𝚃 𝙶𝙰𝙼𝙴 "
 exit 0
-
-else
-echo " 𝚆𝚊𝚛𝚗𝚒𝚗𝚐! 𝚎𝚛𝚛𝚘𝚛 𝟺𝟶𝟺 "
-echo -e "   𝙰𝙳𝙳 𝙿𝚄𝙱𝙶 𝙺𝚁 𝙸𝙽𝚂𝙸𝙳𝙴 𝙾𝙵 𝙺𝙴 𝚅𝙰𝚁𝚃𝚄𝙰𝙻"    
-exit 0
-fi
-fi
 fi
