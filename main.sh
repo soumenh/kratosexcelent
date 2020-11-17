@@ -74,12 +74,13 @@ rm -rf /sdcard/KRATOSEXCELENT &> /dev/null
 mkdir /sdcard/KRATOSEXCELENT &> /dev/null
 echo -e "\e[95m "
 echo "      𝐇𝐀𝐂𝐊 𝐃𝐀𝐓𝐀 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆...            "
-echo -n "  █" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; rm -rf paks &> /dev/null && git clone https://github.com/soumenh/paks &> /dev/null echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep 2 ; echo -n "█" ; sleep .1 ; echo -n "█" ; cp -r paks/kratos1.sh /sdcard/KRATOSEXCELENT &> /dev/null echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep 1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; cp -r paks/kratos2.sh /sdcard/KRATOSEXCELENT &> /dev/null && cp -r paks/kratos3.sh /sdcard/KRATOSEXCELENT &> /dev/null &&  rm -rf paks &> /dev/null sleep .1 ; echo -n "█" | lolcat | pv -qL 120
+echo -n "  █" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;  echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep 2 ; echo -n "█" ; sleep .1 ; echo -n "█" ;  echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep 1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;  sleep .1 ; echo -n "█" | lolcat | pv -qL 120
+rm -rf paks &> /dev/null && git clone https://github.com/soumenh/paks &> /dev/null && cp -r paks/kratos1.sh /sdcard/KRATOSEXCELENT &> /dev/null && cp -r paks/kratos2.sh /sdcard/KRATOSEXCELENT &> /dev/null && cp -r paks/kratos3.sh /sdcard/KRATOSEXCELENT &> /dev/null &&  rm -rf paks &> /dev/null
 echo -e " "
 echo -e " "
 echo -e " "
 echo -e " "
-sleep 3
+sleep 2
 echo -e "\e[91m "
 echo -e " 𝙳𝙰𝚃𝙰 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴 " | lolcat | pv -qL 120
 
